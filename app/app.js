@@ -9,7 +9,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'});
    
    // Send the response body as "Hello Paul Crawford"
-   response.end('Hello Paul Crawford\n');
+   response.end('Hello Paul Crawford \n');
 
 
 }).listen(PORT);
